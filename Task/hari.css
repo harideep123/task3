@@ -1,0 +1,584 @@
+.nav-head {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-right: 200px;
+    
+    top: 0;
+    height: 40px; /* Added a specific height for the sticky element */
+}
+
+.waves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+body {
+    font-family: IBM Plex Sans, sans-serif;
+    background-color: rgba(148, 139, 139, 0.144);
+}
+
+.nav-bar li {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    position: sticky;
+    padding-left: 30px;
+    color:grey;
+    font-weight: bold;
+}
+
+.nav-bar li:hover{
+    color:blue;
+}
+
+.new-user {
+    height: 30px;
+    color: blue;
+    background-color: transparent; /* Removed fixed width */
+}
+
+.login {
+    height:30px;
+    background-color: blue;
+    margin-right: 10px !important;
+    color: white; /* Added text color */
+    padding: 0 20px; /* Added padding for better button appearance */
+}
+
+.nav-bar {
+    display: flex;
+    position: sticky;
+    background-color: white;
+    padding: 10px;
+    flex-wrap: wrap;
+    top:0;
+}
+
+
+.Manage{
+    margin-left:100px;
+}
+.sash{
+    color:rgba(0, 0, 0, 0.685);
+    margin-left:100px !important;
+
+}
+
+
+.innher1:hover{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.inner2:hover{
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.inner3:hover{
+    border: 1px solid cyan;
+    border-radius: 10px;
+}
+.inner4:hover{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.inner5:hover{
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+.inner6:hover{
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.outer-part{
+    display: flex;
+    margin-left: 80px;
+   
+}
+
+.inner-part1{
+    
+}
+
+.inner-part2{
+   padding-left:80px;
+}
+.buttons{
+    margin-left: 100px;
+}
+
+.badge1{
+    height: 70px; 
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+}
+
+.badge2{
+    height: 70px; 
+    width: 70px;
+    float: left;
+    border-radius: 50%;
+}
+
+
+
+.get-started{
+    height: 40px;
+    width: 130px;
+    background-color: blue;
+}
+
+.discover{
+    height: 40px;
+    width: 130px;
+
+}
+.stat {
+    margin-left: 600px;
+    font-weight: bold;
+    height: 50px;
+}
+.sashh{
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+
+.blocks{
+    display:flex;
+   margin-left: 50px;
+   padding-left: 100px;
+   margin: 10px;
+   
+
+
+ 
+}
+
+.block1, .block2, .block3, .block4 {
+    flex:1;
+    /* Distribute the blocks evenly within the container */
+     /* Center the content horizontally */
+    padding: 20px;
+    border-radius: 10px 10px 0 10px;
+    
+}
+ div .block1,.block2,.block3{
+    padding-left: 20px;
+ }
+
+.blocks>div{
+    padding-left: 20px;
+    
+    height: 150px;
+    width: 100px;
+   
+    border-radius: 50px 50px 0 50px;
+}
+
+.Features{
+    margin-left: 600px;
+
+}
+
+.sash3{
+    margin-left: 50px;
+}
+
+.sash4{
+    margin-left: 250px;
+}
+
+
+.our{
+    margin-left: 600px;
+
+}
+
+.our1{
+    margin-left: 40px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.img {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.img img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.we {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.high{
+    margin-left: 550px;
+
+}
+
+.temp{
+    margin-left: 0px;
+}
+
+.sash5{
+    margin-left: 250px;
+}
+
+
+.container2{
+    background-color: rgba(0, 0, 255, 0.514);
+}
+
+
+.features1{
+    color:white;
+    margin-left: 600px;
+    padding-top:50px;
+
+}
+
+.features2{
+    color:white;
+    margin-left: 410px;
+}
+
+.image-gallery {
+    width: 1000px;
+    height: 200px; 
+    overflow: hidden; 
+    /*border:  solid #ccc; /* Add a border to the gallery box */
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.scroll-box {
+    display: flex; 
+    width: fit-content; 
+    animation: scrollLeft 20s linear infinite; 
+    margin-left: 400px;
+padding-left: 500px;
+}
+
+
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 50px; 
+}
+
+
+/* Reset some default styles for better appearance */
+/* CSS styles go here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/013/374/162/large_2x/abstract-white-gray-gradient-background-vector.jpg");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.outer-drop, .inner-drop {
+    flex: 1;
+    padding: 30px;
+    margin-right: 20px;
+    height: 300px;
+    margin-left: 20px;
+    
+}
+
+.menu-item {
+    position: relative;
+    margin-bottom: 10px;
+    
+    background-color: rgba(95, 158, 160, 0.438);
+   
+    padding-top:30px;
+    padding-left: 70px;
+}
+
+.menu-label {
+    cursor: pointer;
+    color: blue;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.dropdown {
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
+.costs{
+    display: block;
+    margin: 0 auto;
+    padding:20px 20px ;
+    border:2px solid white;
+    background-color: white;
+    color:red;
+    text-align: center;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    height: 500px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.icon1{
+    color:black;
+    font-size: 15px;
+
+}
+
+.buy{
+    color:grey;
+    font-size: 15px;
+    background-color:red;
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+
+
+.cost{
+    display: flex;
+    flex-wrap: wrap; 
+    margin:90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  div b{
+    color:black;
+    font-size: small;
+  }
+
+.costs2 {
+    display: block;
+    margin: 0 auto;
+    padding:20px 20px ;
+    border:2px solid white;
+    background-color: red;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    height: 500px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.icon11 p{
+    color:white;
+    font-size: 15px;
+
+}
+
+
+.text11 input{
+    color:white;
+    font-size: 15px;
+    background-color:cornflowerblue;
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+    
+}
+
+.text11 input:hover{
+    background-color: blueviolet;
+    transition: background-color 0.5s;
+}
+
+.choose{
+    margin-left: 600px;
+}
+
+.findd{
+    margin-left: 380px;
+    font-size:xx-large ;
+}
+
+
+.lor{
+    font-size: small;
+    text-align: left;
+}
+
+.bill{
+    font-size: small;
+    color:blue;
+    text-align: left;
+}
+
+
+.fa{
+    margin-left: 500px;
+
+}
+.wer{
+    margin-left: 350px;
+}
+.sash6{
+    margin-left: 200px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.animated-text {
+    animation: appear 0.5s ease-in-out both;
+    display: inline-block;
+    opacity: 0; 
+    color:lightseagreen;
+   
+}
+.anime{
+    margin-left: 100px;
+}
+
+.animated-text:nth-child(1) {
+    animation-delay: 0.2s;
+
+}
+
+.animated-text:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.animated-text:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.animated-text:nth-child(4) {
+    animation-delay: 1s;
+}
+
+.container3{
+    background-color: rgba(0, 0, 255, 0.658);
+    height: 500px;
+    width: 200vw !important;
+    color: #ddd;
+    padding-top: 100px;
+  
+}
+
+.test{
+    margin-left: 450px;
+}
+
+.peo{
+    margin-left: 200px;
+}
+
+
+.lo{
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+}
+
+.container4 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
